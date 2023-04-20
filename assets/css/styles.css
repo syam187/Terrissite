@@ -579,7 +579,7 @@ font-size: 30px;
 .hero2-section2 {
   background: linear-gradient(90deg, rgba(152,165,192,1) 0%, rgba(118,136,187,1) 33%, rgba(83,108,181,1) 66%, rgba(39,64,142,1) 100%, rgba(182,182,184,1) 100%), url(assets/img/hero-bg.jpg);
   position: relative;
-  background-image: url('/assets/img/trial2.jpg');
+  background-image: url('/assets/img/ponky.jpg');
   max-height: 100%;
 }
 
@@ -668,6 +668,5 @@ font-size: 30px;
   width: 500px; /* adjust as needed */
   height: 500px; /* adjust as needed */
 }
-
 
 
