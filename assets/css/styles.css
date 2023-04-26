@@ -342,7 +342,10 @@ font-size: 30px;
   background-color: #fff;
   border-radius: 20px;
 }
-.icon-wrapper{
+.icon-wrapper{p {
+  font-size: 30px;
+  color: yellow;
+}
   background-color:#122c89 ;
   border-radius: 40px;
   width: fit-content;
@@ -668,5 +671,48 @@ font-size: 30px;
   width: 500px; /* adjust as needed */
   height: 500px; /* adjust as needed */
 }
+
+/* .emoji {
+  font-size: 30px;
+  color: yellow;
+} */
+
+#emoji {
+  font-size: 40px;
+  position: relative;
+  top: 0;
+  animation: up-down 1s ease-in-out infinite, change-color 5s ease-in-out infinite;
+}
+
+@keyframes up-down {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes change-color {
+  0% {
+    color:#2BEBD9;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: pink;
+  }
+  100% {
+    color:#2BEBD9;
+  }
+}
+
 
 
