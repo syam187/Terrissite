@@ -342,11 +342,13 @@ font-size: 30px;
   background-color: #fff;
   border-radius: 20px;
 }
-.icon-wrapper{p {
+.icon-wrapper p {
   font-size: 30px;
   color: yellow;
 }
-  background-color:#122c89 ;
+  
+.icon-wr {
+background-color:#122c89 ;
   border-radius: 40px;
   width: fit-content;
   padding: 20px 25px;
@@ -713,6 +715,8 @@ font-size: 30px;
     color:#2BEBD9;
   }
 }
+
+
 
 
 
